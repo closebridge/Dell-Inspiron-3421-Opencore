@@ -1,6 +1,6 @@
 # Dell-Latitude-7290-Opencore
 
-This the the repository for the semi-functional OpenCore EFI using `OpenCore 1.0.1` aimed to run macOS Sonoma/Sequoia. Most of the features do work but some are not.
+This is the repository for the semi-functional OpenCore EFI using `OpenCore 1.0.1` which aimed to run macOS Sonoma/Sequoia on Dell Latitude 7290. Most of the features do work but some are not.
 
 ## System Specification
 | Name          | Detail      |
@@ -20,13 +20,13 @@ This the the repository for the semi-functional OpenCore EFI using `OpenCore 1.0
 - "Boong" Boot chime (*really*?)
 
 ## Head-up
-- `EFI/OC/Resources` has been wiped, thus making the UI boot unusable, adding [required files](https://dortania.github.io/OpenCore-Post-Install/cosmetic/gui.html#setting-up-opencore-s-gui) is mandatory.
+- `EFI/OC/Resources` has been wiped, thus making the UI boot unusable. The addendum of [required files](https://dortania.github.io/OpenCore-Post-Install/cosmetic/gui.html#setting-up-opencore-s-gui) is mandatory.
 - `PlatformInfo` has been wiped (as `null` or `FFFFF`), you are required to use [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) with `MacbookPro15,2` SMBIOS.
 - This EFI is provided **as-is**, since then you must understand the OpenCore's inner working to use this EFI effectively, which means that I would be happy to ignore questions about "Why wont this work?".
 - You can do whatever you want with this EFI (no credit, no "ily", just pure openness).
 
 ## Special Thank-you
-- Opencore team/contributors
+- OpenCore team/contributors
 - r/Hackintosh subreddit
 - Apple for macOS
 - Dell for Dell
